@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utc-8">
+        <title> Primeros ejercicios </title>
+    </head>
+
+    <body>
+        <h1>
+            Quinto problema
+        </h1>
+        
+        <script type="text/javascript"> 
+            /*
+            Memify(valor_startup)
+
+            INT: valorStartup, IVA, socio1, socio2;
+            
+            socio1 = (valorStartup -IVA)/2;
+            
+            socio2 = (valorStartup -IVA)/2;
+
+            print("Cada socio obtiene, por su startup, un total de:")
+            
+            print(socio1) //También funciona con socio2.
+            */
+
+            let valorStartup = parseInt(prompt("¿En cuánto vendiste tu start up?"))
+            let iva = parseInt(prompt("¿Cuánto te cobraron de IVA?"));
+            let cadaSocio = (valorStartup - iva)/2;
+
+        alert("Cada socio recibe, por la startup, un total de " + cadaSocio);
+
+        </script>
+    </body>
+
+</html>
