@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utc-8">
+        <title> Primeros ejercicios </title>
+    </head>
+
+    <body>
+        <h1>
+            Cuarto problema
+        </h1>
+        
+        <script type="text/javascript"> 
+            /*
+            4.- Juan y jose inician con una cantidad de dinero diferente cada quien. Su abuelita les deja una herencia que se divide entre los dos en partes iguales
+¿Cuánto dinero tienen entre los 2  y cuanto dinero tiene cada uno después de recibir la herencia?
+
+Herencia anietos(jose, juan, herencia)
+
+	INT: jose, juan, joseInicial, joseFinal, juanInicial, juanFinal, herencia;
+
+	joseInicial = jose;
+
+	juanInicial = juan;
+
+	joseFinal = jose + (herencia/2);
+
+	juanFinal = juan + (herencia/2);
+
+	print("El dinero inicial de José y Juan, respectivamente, es: ");
+
+	print(joseInicial + " y " + joseInicial);
+
+	print("El dinero final de José y Juan, respectivamente, es: ");
+
+	print(joseFinal + " y " + joseFinal);
+
+	RETURN 0;
+            */
+            let jose = parseInt(prompt("¿Cuánto dinero tiene José"));
+            let juan = parseInt(prompt("¿Cuánto dinero tiene juan?"));
+            let herencia = parseInt(prompt("¿Cuánto ganaron en la herencia"));
+
+            let juanInicial = juan;
+            let joseInicial = jose;
+
+            let joseFinal = jose + (herencia/2);
+            let juanFinal = juan + (herencia/2);
+
+
+        alert("El dinero inicial de José y Juan es: " + joseInicial + " y " + juanInicial + " respectivamente");
+
+        </script>
+    </body>
+
+</html>
