@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utc-8">
+        <title> Primeros ejercicios </title>
+    </head>
+
+    <body>
+        <h1>
+            Hola mundo
+        </h1>
+        
+        <script type="text/javascript"> 
+
+        /*Presupuesto(ingreso1, ingreso2, gasto1, gasto2, gasto3)
+
+	INT: ingreso1, ingreso2, gasto1, gasto2, gasto3, ingrestoTotal, gastoTotal, balance;
+
+	ingresoTotal = ingreso1 + ingreso2;
+
+	gastoTotal = gasto1 + gasto2;
+
+	balance = ingresoTotal - gastoTotal;
+
+    RETURN balance;
+    */
+
+            let ingreso1 = parseInt(prompt("¿De cuánto es tu primer ingreso?"));
+            let ingreso2 = parseInt(prompt("¿De cuánto es tu segundo ingreso?"));
+            let gasto1 = parseInt(prompt("¿De cuánto es tu primer gasto?"));
+            let gasto2 = parseInt(prompt("¿De cuánto es tu segundp gasto?"));
+            let gasto3 = parseInt(prompt("¿De cuánto es tu tercer gasto?"));
+
+            let ingresoTotal = ingreso1 + ingreso2;
+            let gastoTotal = gasto1 + gasto2 + gasto3;
+            let balance = ingresoTotal - gastoTotal
+
+            alert("Ganaste " + ingresoTotal + " pero gastaste " + gastoTotal + " y tu balance es " + balance)
+
+        </script>
+    </body>
+
+</html>
